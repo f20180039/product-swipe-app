@@ -241,14 +241,9 @@ module.exports = {
         "0px 18px 28px 0px rgba(9, 30, 66, 0.15), 0px 0px 1px 0px rgba(9, 30, 66, 0.31)",
       "7xl":
         "0px 8px 12px 0px rgba(9, 30, 66, 0.15), 0px 0px 1px 0px rgba(9, 30, 66, 0.31)",
-      pagination: "3px 0px 6.3px 0px rgba(9, 30, 66, 0.50)",
-      "custom-sm": "0px 0.25px 0px 0px #03071229",
       "custom-md": "0px 0.5px 0px 0px #03071229",
-      highlightBox:
-        "29px 5px 43.2px -6px rgba(24, 39, 75, 0.20), 0px 18px 88px -4px rgba(24, 39, 75, 0.14)",
       "sh-100":
         "0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08)",
-      "highlight-text": "0px 18px 88px -4px rgba(24, 39, 75, 0.14)",
     },
     blur: {
       sm: "8px",
@@ -283,12 +278,12 @@ module.exports = {
       8: "8px",
     },
     fontWeight: {
-      "inter-0.5": "300",
-      "inter-0": "400",
-      "inter-1": "500",
-      "inter-2": "600",
-      "inter-3": "700",
-      "inter-4": "800",
+      light: "300",
+      regular: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+      extrabold: "800",
     },
     letterSpacing: {
       reduced: "-0.5px",

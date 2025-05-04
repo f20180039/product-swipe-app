@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import ProductSwiper from "./components/ProductSwiper";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className='mob-bg-Pink-100 mob-text-Black'>
-      a
+    <div className="mob-flex mob-items-center mob-justify-center">
+      <ProductSwiper />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
