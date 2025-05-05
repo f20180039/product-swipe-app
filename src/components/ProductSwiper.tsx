@@ -23,7 +23,7 @@ const ProductSwiper = () => {
           dispatch(addLiked(swipedProduct));
           break;
         case E_SWIPE_DIRECTION.LEFT:
-          console.log(`Passed Product ID: ${productId}`);
+          console.log(`Dislike Product ID: ${productId}`);
           dispatch(addDisliked(swipedProduct));
           break;
         case E_SWIPE_DIRECTION.UP:
