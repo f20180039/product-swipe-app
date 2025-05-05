@@ -1,5 +1,6 @@
 {
   "name": "product-swipe-app",
+  "homepage": "https://f20180039.github.io/product-swipe-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,9 @@
     "type-check": "tsc --noEmit",
     "preview": "vite preview",
     "format": "eslint --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@capacitor/android": "^7.2.0",
